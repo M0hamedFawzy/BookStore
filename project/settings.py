@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # local
-    'accounts.apps.AccountsConfig'  # custom user model
+    'accounts.apps.AccountsConfig',  # custom user model
+    'pages.apps.PagesConfig',  # pages model
 ]
 AUTH_USER_MODEL = "accounts.CustomUser"
 
@@ -57,7 +58,7 @@ ROOT_URLCONF = 'project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / "templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
