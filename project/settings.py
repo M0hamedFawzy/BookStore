@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'pages.apps.PagesConfig',  # pages model
 ]
 AUTH_USER_MODEL = "accounts.CustomUser"
+LOGIN_REDIRECT_URL = "home"  # redirects the user when login to the home page
+LOGOUT_REDIRECT_URL = "home"  # redirects the user when logout to the home page
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
