@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6ed2504-8571-41e6-bf5d-8e269a0a439b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/account/logout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/project/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/_base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/signup.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
