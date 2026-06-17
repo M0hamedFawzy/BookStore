@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     # local
     'accounts.apps.AccountsConfig',  # custom user model
     'pages.apps.PagesConfig',  # pages model
+    'books.apps.BooksConfig',  # books model
 ]
 
 # django-crispy-forms
@@ -53,7 +54,7 @@ AUTHENTICATION_BACKENDS = (
     "allauth.account.auth_backends.AuthenticationBackend",
 )
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
-# EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend" //whenever i decide to implement email auth service
+# EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend" // whenever i decide to implement email auth service
 ACCOUNT_SESSION_REMEMBER = True
 ACCOUNT_SIGNUP_PASSWORD_ENTER_TWICE = False
 # make the signin requires email only
