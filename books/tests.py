@@ -5,6 +5,7 @@ from django.urls import reverse
 from .models import Book, Review
 
 
+# new tests for users with special permission and not
 class BookTests(TestCase):
     @classmethod
     def setUpTestData(cls):
