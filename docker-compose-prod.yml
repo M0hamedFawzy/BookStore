@@ -2,7 +2,8 @@ services:
   web:
     build: .
 #    command: python manage.py runserver 0.0.0.0:8000
-    command: gunicorn project.wsgi -b 0.0.0.0:8000
+#    command: gunicorn project.wsgi -b 0.0.0.0:8000
+    command: ./start.sh
     volumes:
       - .:/code
     ports:

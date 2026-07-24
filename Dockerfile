@@ -16,3 +16,10 @@ COPY ./requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 # Copy project
 COPY . .
+
+# Add startup script
+COPY start.sh .
+RUN chmod +x start.sh
+
+# Run startup script
+CMD ["./start.sh"]
